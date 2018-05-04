@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity(`G'day Cunce!`);
+  bot.user.setActivity(`Prefix: - | G'day.`);
 });
 
 bot.on("message", async message => {
