@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Hello') {
-    	message.reply('ScarnonCunce bot active');
+    if (message.content === 'ping') {
+    	message.reply('pong');
   	}
 });
 
