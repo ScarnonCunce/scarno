@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity(`G'day!`);
+  bot.user.setActivity(`Under Maintenance, Check back soon!`);
 });
 
 bot.on("message", async message => {
@@ -17,7 +17,7 @@ bot.on("message", async message => {
   let args = messageArray.slice(1);
 
   if (cmd === `${prefix}info`){
-    message.channel.send("**ScarnonCunce? bot is a bot created by @Jackson#0400 **");
+    message.channel.send("**I'm an Aussie who loves to make videos for all you sick cunce out there. Me farkin Patreon https://www.patreon.com/ScarnonCunce**");
   }
 });
 
