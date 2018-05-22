@@ -16,8 +16,8 @@ bot.on("message", async message => {
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
 
-  if (cmd === `${prefix}info`){
-    message.channel.send("**I'm an Aussie who loves to make videos for all you sick cunce out there. Me farkin Patreon https://www.patreon.com/ScarnonCunce**");
+  if (cmd === `${prefix}who`){
+    message.channel.send("**I'm an Aussie who loves to make videos for all you sick cunce out there**");
   }
 });
 
